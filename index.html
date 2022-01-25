@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crypto Dashboard</title>
+    
+    <!--bootstrap stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    navbar
+    <nav class="navbar fixed-top navbar-light bg-dark">
+       <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Fixed top</a>
+          <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+       </div>
+    </nav>
+    
+    
+    <table class="table table-element table-hover">
+  <thead>
+    <tr>
+      <th >#</th>
+      <th >COIN</th>
+      <th >EUROPRICE</th>
+      <th >USDPRICE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="row1">
+      <th >1</th>
+      <td><img src="images/btc.png" height="40px" width="50px"> Bitcoin</td>
+      <td class="europrice" id="btc">Loading...</td>
+      <td class="usdprice" id="btc">Loading...</td>
+    </tr>
+    <tr class="row1">
+      <th>2</th>
+      <td><img src="images/eth.svg" height="40px" width="50px"> Etheruem</td>
+      <td class="europrice" id="eth">Loading...</td>
+      <td class="usdprice" id="eth">Loading...</td>
+    </tr>
+    <tr class="row1">
+      <th>3</th>
+      <td><img src="images/bts.png" height="40px" width="50px"> Bitshares</td>
+      <td class="europrice" id="bts">Loading...</td>
+      <td class="usdprice" id="eth">Loading...</td>
+    </tr>
+    <tr class="row1">
+      <th>4</th>
+      <td><img src="images/ltc.png" height="40px" width="50px"> Litecoin</td>
+      <td class="europrice" id="ltc">Loading...</td>
+      <td class="usdprice" id="eth">Loading...</td>
+    </tr>
+    <tr class="row1">
+      <th>5</th>
+      <td><img src="images/dash.png" height="40px" width="50px"> Dash</td>
+      <td class="europrice" id="dash">Loading...</td>
+      <td class="usdprice" id="eth">Loading...</td>
+    </tr>
+    <tr class="row1">
+      <th>6</th>
+      <td><img src="images/fct.svg" height="40px" width="50px"> Factom</td>
+      <td class="europrice" id="fct">Loading...</td>
+      <td class="usdprice" id="eth">Loading...</td>
+    </tr>
+    <tr class="row1">
+      <th>7</th>
+      <td ><img src="images/mona.png" height="40px" width="50px"> Monacoin</td>
+      <td class="europrice" id="mona">Loading...</td>
+      <td class="usdprice" id="eth">Loading...</td>
+    </tr>
+    <tr class="row1">
+      <th>8</th>
+      <td><img src="images/nmc.png" height="40px" width="50px"> Namecoin</td>
+      <td class="europrice" id="nmc">Loading...</td>
+      <td class="usdprice" id="eth">Loading...</td>
+    </tr>
+    <tr class="row1">
+      <th>9</th>
+      <td><img src="images/xlm.png" height="40px" width="50px"> Stella</td>
+      <td class="europrice" id="xlm">Loading...</td>
+      <td class="usdprice" id="eth">Loading...</td>
+    </tr>
+    <tr class="row1">
+      <th>10</th>
+      <td><img src="images/usdt.png" height="40px" width="50px"> Tether</td>
+      <td class="europrice" id="usdt">Loading...</td>
+      <td class="usdprice" id="eth">Loading...</td>
+    </tr>
+  </tbody>
+</table>
+  
+  <!--bootstrap javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
